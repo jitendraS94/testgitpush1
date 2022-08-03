@@ -9,6 +9,16 @@ d = {
     "mob_no" : 75698565,
     "job_loc": "gwalior"
 }
+d = {
+    "emp_id" : 124652,
+    "mob_no" : 75698565,
+    "job_loc": "gwalior"
+}
+d = {
+    "emp_id" : 124652,
+    "mob_no" : 75698565,
+    "job_loc": "gwalior"
+}
 db1 = client["Mongodb123"]
 coll = db1['test2']
 coll.insert_one(d )
